@@ -1,0 +1,23 @@
+{
+  "name": "typescriptmonitor",
+  "version": "1.0.0",
+  "description": "Typescript Decorator to monitor class or method calls",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/divyanshgupta/TypescriptMonitor.git"
+  },
+  "keywords": [
+    "typescript",
+    "decorator"
+  ],
+  "author": "Divyansh GUpta",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/divyanshgupta/TypescriptMonitor/issues"
+  },
+  "homepage": "https://github.com/divyanshgupta/TypescriptMonitor#readme"
+}
