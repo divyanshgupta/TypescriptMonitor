@@ -2,17 +2,34 @@
   "name": "typescriptmonitor",
   "version": "1.0.0",
   "description": "Typescript Decorator to monitor class or method calls",
-  "main": "index.js",
+  "main": "./dist/index.js",
+  "types":"./dist/index.d.ts",
   "scripts": {
+    "compile":"tsc -p .",
+    "prepublish":"npm run compile",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "keywords": [
+    "typescript",
+    "performance",
+    "monitor",
+    "profile"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/divyanshgupta/TypescriptMonitor.git"
   },
-  "keywords": [
-    "typescript",
-    "decorator"
+  "devDependencies": {
+    "@types/debug": "0.0.29",
+    "@types/node": "^7.0.23",
+    "typescript": "^2.3.2"
+  },
+  "dependencies": {
+    "debug": "^2.6.8"
+  },
+  "files": [
+    "dist/index.js",
+    "dist/index.d.ts"
   ],
   "author": "Divyansh GUpta",
   "license": "ISC",
